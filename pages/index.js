@@ -1,1 +1,1 @@
-export default () => <div>hi index</div>
+export default () => <div>hi indexnpm</div>;
