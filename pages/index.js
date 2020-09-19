@@ -1,1 +1,7 @@
-export default () => <div>hi indexnpm</div>;
+import Navigation from '../components/Navigation';
+export default () => (
+  <div>
+    <Navigation />
+    <p> test </p>{' '}
+  </div>
+);

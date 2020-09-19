@@ -9,6 +9,7 @@ module.exports = {
   },
   env: {
     browser: true,
+
     node: true,
   },
   extends: ['airbnb-base', 'plugin:prettier/recommended'],
@@ -19,8 +20,18 @@ module.exports = {
     'no-multiple-empty-lines': 2,
     'class-methods-use-this': 0,
     'comma-dangle': ['error', 'never'],
-    'no-console': ['error', { allow: ['warn', 'log'] }],
-    'prettier/prettier': ['error', { singleQuote: true }],
+    'no-console': [
+      'error',
+      {
+        allow: ['warn', 'log'],
+      },
+    ],
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+      },
+    ],
     'import/prefer-default-export': 'off',
 
     // allow paren-less arrow functions
