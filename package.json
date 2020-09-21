@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "next start",
     "dev": "next",
-    "build": "next build"
+    "build": "next build",
+    "lint": "eslint --ext .js components pages lib",
+    "lint:fix": "eslint --ext .js --fix  components pages lib"
   },
   "author": "",
   "license": "ISC",
@@ -18,26 +20,15 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run lint"
     }
-  },
-  "lint-staged": {
-    "*.{js,json,css,md}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.9.0",
-    "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-html": "^6.1.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.4.0",
-    "prettier": "^2.1.2"
+    "husky": "^4.3.0"
   }
 }
