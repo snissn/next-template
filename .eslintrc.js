@@ -6,8 +6,8 @@ module.exports = {
 
     node: true,
   },
-  extends: ["plugin:prettier/recommended"],
-  //extends: ['airbnb-base',  'plugin:prettier/recommended'],
+  //extends: ["plugin:prettier/recommended"],
+  extends: ["airbnb-base", "plugin:prettier/recommended"],
   // add your custom rules here
   rules: {
     "no-unused-vars": 0,
