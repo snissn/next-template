@@ -1,8 +1,8 @@
-import Navigation from '../components/Navigation';
+import Navigation from "../components/Navigation";
 
 export default () => (
   <div>
     <Navigation />
-    <p> test </p>{' '}
+    <p> test </p>{" "}
   </div>
 );

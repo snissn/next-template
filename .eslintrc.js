@@ -6,7 +6,7 @@ module.exports = {
 
     node: true,
   },
-  extends: ['airbnb-base'],
+	extends: ['airbnb-base',  'plugin:prettier/recommended'],
 
   // add your custom rules here
   rules: {
