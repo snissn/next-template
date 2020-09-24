@@ -1,5 +1,5 @@
 const Index = () => (
-  <section class="section has-background-primary has-text-centered">
+  <section className="section has-background-primary has-text-centered">
     <svg
       height="600"
       viewBox="0 0 148 90"

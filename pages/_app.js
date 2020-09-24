@@ -5,11 +5,25 @@ import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="site">
       <Navigation />
-      <Component {...pageProps} />
+      <main>
+        <Component {...pageProps} />
+      </main>
       <Footer />
-    </>
+      <style jsx>
+        {`
+          .site {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+          }
+          main {
+            flex: 1;
+          }
+        `}
+      </style>
+    </div>
   );
 }
 
