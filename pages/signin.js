@@ -43,6 +43,7 @@ export default class signin extends Component {
 
         photo: result.user.photoURL,
       };
+      console.log(authUser);
       this.authHandler(authUser);
     });
   };
