@@ -1,6 +1,14 @@
 @charset "utf-8";
-@import "../../node_modules/bulma/bulma.sass";
 
+
+
+//$footer-background-color  : #ff9d9b;
+
+
+ 
+$footer-background-color  :#363636;
+
+@import "../../node_modules/bulma/bulma.sass";
 // Import a Google Font
 @import url("https://fonts.googleapis.com/css?family=Baloo+Tammudu+2:400,700");
 
@@ -12,3 +20,5 @@ body {
 .pointer {
   cursor: pointer;
 }
+
+ 

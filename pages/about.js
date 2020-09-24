@@ -2,7 +2,7 @@ const About = () => (
   <div>
     <div> about page </div>
     <div>
-      foo
+      foo 🤠🤠
       <p>foo</p>
     </div>
   </div>
