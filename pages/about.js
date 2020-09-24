@@ -1,10 +1,7 @@
 const About = () => (
-  <div>
+  <div className="container section">
     <div> about page </div>
-    <div>
-      foo 🤠🤠
-      <p>foo</p>
-    </div>
+    <p>🤠🤠</p>
   </div>
 );
 
