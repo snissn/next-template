@@ -1,7 +1,16 @@
 // import App from 'next/app'
+import "../assets/sass/style.scss";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Navigation />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  );
 }
 
 // Only uncomment this method if you have blocking data requirements for
