@@ -1,4 +1,4 @@
-export default () => (
+const About = () => (
   <div>
     <div> about page </div>
     <div>
@@ -7,3 +7,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default About;

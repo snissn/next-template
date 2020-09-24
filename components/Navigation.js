@@ -4,12 +4,14 @@ const Navigation = () => (
   <div>
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <Link className="navbar-item" href="/">
-          <img
-            src="https://bulma.io/images/bulma-logo.png"
-            width="112"
-            height="28"
-          />
+        <Link href="/">
+          <a className="navbar-item">
+            <img
+              src="https://bulma.io/images/bulma-logo.png"
+              width="112"
+              height="28"
+            />
+          </a>
         </Link>
 
         <a
@@ -27,7 +29,12 @@ const Navigation = () => (
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className="navbar-item">Home</a>
+          <Link href="/about">
+            <a className="navbar-item">About</a>
+          </Link>
+          <Link href="/">
+            <a className="navbar-item">Home</a>
+          </Link>
 
           <a className="navbar-item">Documentation</a>
 
